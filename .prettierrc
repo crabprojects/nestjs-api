@@ -1,5 +1,14 @@
 {
   "singleQuote": true,
   "endOfLine": "crlf",
-  "trailingComma": "all"
+  "trailingComma": "all",
+
+  "overrides": [
+    {
+      "files": "*.prisma",
+      "options": {
+        "parser": "prisma"
+      }
+    }
+  ]
 }
